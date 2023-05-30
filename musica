@@ -1,0 +1,4 @@
+import pygame
+musica_de_fundo = pygame.music.load('REW__ - Dunaliella.mp3.mp3')
+pygame.music.play(-1)
+pygame.mixer.music.set_volume(0.5)
